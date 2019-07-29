@@ -1,0 +1,75 @@
+<form class="was-validated">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Apellido</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellido" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Apellido</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellido" required>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">Ciudad</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="Ciudad" required>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Departamento</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="Departamento" required>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Pais</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="Pais" required>
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="validationTextarea">Observaciones</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Observaciones" required></textarea>
+    </div>
+
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+        <label class="custom-control-label" for="customControlValidation2">Opcion 1</label>
+    </div>
+    <div class="custom-control custom-radio mb-3">
+        <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+        <label class="custom-control-label" for="customControlValidation3">Opcion 2</label>
+        <div class="invalid-feedback">Seleccione una opción</div>
+    </div>
+
+    <div class="form-group">
+        <select class="custom-select" required>
+              <option value="">Edad</option>
+              <option value="1">18</option>
+              <option value="2">19</option>
+              <option value="3">20</option>
+              <option value="4">21</option>
+              <option value="5">22</option>
+              <option value="6">23</option>
+              <option value="7">24</option>
+              <option value="8">25</option>
+              <option value="9">26</option>
+              <option value="10">27</option>
+              <option value="11">28</option>
+              <option value="12">29</option>
+              <option value="13">30</option>
+              <option value="14">31</option>
+              <option value="15">32</option>
+        </select>
+    </div>
+
+    <div class="custom-file">
+        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+        <label class="custom-file-label" for="validatedCustomFile">Buscar archivo...</label>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+
+</form>
